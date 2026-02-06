@@ -14,12 +14,12 @@ Become familiar with network interfaces and basic cable types.
 
 ## What I Observed
 - Devices did not communicate when incorrectly cabled
-- Link lights indicated when a connection was active
-- Cisco Router links are disabled by default causing a red link light
 - Correct cable selection allowed devices to connect
+- Link lights indicated when a connection was active
+- Cisco Router interfaces are disabled by default causing a red link light
 
 ## What I’m Not Fully Sure About Yet
-- When crossover cables are required versus automatically handled
+- What needs to be done to fully enable a router interface
 
 ## Related Lesson
 Jeremy’s IT Lab – Day 2
