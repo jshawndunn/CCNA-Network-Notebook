@@ -1,25 +1,29 @@
-# Network Devices – Roles and Responsibilities
+# Network Devices – Core Roles
 
 ## Why this exists
-Networks are built from specialized devices, each responsible for handling traffic at different layers. Separating these roles makes networks faster, more scalable, and easier to troubleshoot.
+Different network devices exist because traffic needs to be handled in different ways.
 
 ## When it breaks / goes wrong
-- Devices used outside their intended role
-- Bottlenecks caused by incorrect placement
-- Broadcast storms due to lack of segmentation
-- Traffic reaching a device that cannot interpret it
+- A server or client doesn't receive the data it is expecting
 
 ## How I would tell
-- Excessive flooding or collisions
-- Traffic not reaching other networks
-- High latency despite good link speed
-- Packets dropped at network boundaries
+- Communication fails
 
 ## One thing I keep forgetting
-Not all network devices understand the same type of data. Frames, packets, and bits are handled by different devices.
 
 ## Mental model
-A network is an assembly line. Each device only performs the task it was designed for and passes the traffic to the next station.
+Each device serves a specific purpose. They work together to move data through the network like an assembly line.
 
 ## Notes / Open questions
-How multilayer switches blur the line between switching and routing.
+
+## Switch
+- Has many ports for connecting devices
+- Provides connectivity for host within the same LAN only.
+- Does not connect different networks together
+
+## Router
+- Provide connectivity between LANS
+
+## Firewall
+- Uses rules to controls which traffic is allowed or blocked
+- Can be placed inside or outside the network
