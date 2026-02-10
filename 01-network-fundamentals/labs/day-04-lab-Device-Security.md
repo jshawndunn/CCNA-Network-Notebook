@@ -24,16 +24,18 @@ Set basic password security on switches and routers
 ## Related Lesson
 Jeremy’s IT Lab – Day 4
 
-## Notes
--Commands used:
--- enable
--- configure terminal
--- enable password <password>
--- service password-encryption
--- enable secret <password>
--- hostname
--- show
--- do
--- no
--- write, write memory, copy running-config startup-config
+## Commands used
+Commands executed during the lab to complete the required tasks.
 
+- enable
+- configure terminal
+- enable password <password>
+- service password-encryption
+- enable secret <password>
+- hostname
+- show
+- do
+- no
+- write, write memory, copy running-config startup-config
+
+## Notes
