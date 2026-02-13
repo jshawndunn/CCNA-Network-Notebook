@@ -26,7 +26,7 @@ Commands executed during the lab to complete the required tasks.
 
 - ping
 - arp -a
-- show mac adress-table
+- show mac address-table
 - clear mac address-table dynamic
 
 ## Related Lesson
