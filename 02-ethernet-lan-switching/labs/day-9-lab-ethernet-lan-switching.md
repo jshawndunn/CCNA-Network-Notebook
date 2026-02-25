@@ -29,10 +29,10 @@ Become familiar with viewing and configuring interfaces on a Cisco switch
 - show ip interface brief
 - show interface status (only switches)
 - interface range f0/3-24, g0/2
-- speed <speed>
-- duplex <duplextype>
-- ip address <ip subnet>
-- <no> shutdown 
+- speed 'speed'
+- duplex 'duplextype'
+- ip address 'ip subnet'
+- 'no' shutdown 
 - write
 
 ## Related Lesson
