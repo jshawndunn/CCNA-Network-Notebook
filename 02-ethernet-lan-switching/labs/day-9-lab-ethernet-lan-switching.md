@@ -32,6 +32,7 @@ Become familiar with viewing and configuring interfaces on a Cisco switch
 - speed <speed>
 - duplex <duplextype>
 - ip address <ip subnet>
+- <no> shutdown 
 - write
 
 ## Related Lesson

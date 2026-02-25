@@ -33,7 +33,6 @@ Commands executed during the lab to complete the required tasks.
 - no shutdown
 - description <text>
 - show interfaces
-- show interfaces description
 
 ## Related Lesson
 Jeremy’s IT Lab – Day 7 and 8
